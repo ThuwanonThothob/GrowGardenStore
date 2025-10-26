@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ในร้าน</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="top-menu">
+                <li><a href="shop.html">SHOP</a></li>
+                <li class="logo"><img src="https://i.imgur.com/example-logo.png" alt="Logo" style="width: 50px;"></li>
+                <li><a href="checkout.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="shop-content">
+            <div class="categories">
+                <h3>BROWSE PRODUCTS</h3>
+                <ul>
+                    <li>ALL PRODUCTS</li>
+                    <li>TERRARIUM</li>
+                    <li>DIY SET</li>
+                    <li>DECORATIVE ITEMS</li>
+                    <li>PLANTS</li>
+                </ul>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="https://dam.thdstatic.com/content/production/nufH994ThXqVvm3KDU7BTw/srF1LNWpWbIkabgv6WOroQ/Original%20file/1af079fa-470d-4741-87a5-ea8e9dcf7634_english_lavender_1.jpeg?im=Resize=(920,575)" alt="ต้นลาเวนเดอร์">
+                    <h3>ต้นลาเวนเดอร์</h3>
+                    <button onclick="addToCart('ต้นลาเวนเดอร์', 300)">ซื้อ</button>
+                    <span class="price-tag">300 บาท</span>
+                </div>
+                <div class="product">
+                    <img src="https://images.squarespace-cdn.com/content/v1/64034d816fb22408e4468d08/d22918d4-7201-4616-ab32-0d9449a45ff7/IMG_8042.jpg" alt="ช่อดอกไม้">
+                    <h3>ช่อดอกไม้สวย</h3>
+                    <button onclick="addToCart('ช่อดอกไม้สวย', 500)">ซื้อ</button>
+                    <span class="price-tag">500 บาท</span>
+                </div>
+                <div class="product">
+                    <img src="https://dam.thdstatic.com/content/production/-MS3uSafL4iUuz-8PI5pdw/oGERt72ULRpWogWyzcxtsg/Original%20file/34-favorite-fall-flowers-and-plants-for-your-garden-hero.jpg" alt="ต้นไม้ผสม">
+                    <h3>ต้นไม้ผสม</h3>
+                    <button onclick="addToCart('ต้นไม้ผสม', 400)">ซื้อ</button>
+                    <span class="price-tag">400 บาท</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 ร้านดอกไม้ต้นไม้. สงวนลิขสิทธิ์ทั้งหมด.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
